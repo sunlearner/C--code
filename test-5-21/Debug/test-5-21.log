@@ -1,0 +1,4 @@
+﻿  test-5-21.cpp
+D:\c++\test-5-21\test-5-21.cpp(131,10): warning C4309: “初始化”: 截断常量值
+D:\c++\test-5-21\test-5-21.cpp(132,10): warning C4309: “初始化”: 截断常量值
+  test-5-21.vcxproj -> D:\c++\test-5-21\Debug\test-5-21.exe
