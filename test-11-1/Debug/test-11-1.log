@@ -1,0 +1,12 @@
+﻿cp.obj : error LNK2005: "void __cdecl Issp(class point &,class circle &)" (?Issp@@YAXAAVpoint@@AAVcircle@@@Z) 已经在 circle.obj 中定义
+cp.obj : error LNK2005: "public: void __thiscall circle::Issp(class point &)" (?Issp@circle@@QAEXAAVpoint@@@Z) 已经在 circle.obj 中定义
+cp.obj : error LNK2005: "public: void __thiscall circle::set_cp(class point)" (?set_cp@circle@@QAEXVpoint@@@Z) 已经在 circle.obj 中定义
+cp.obj : error LNK2005: "public: void __thiscall circle::set_r(int)" (?set_r@circle@@QAEXH@Z) 已经在 circle.obj 中定义
+cp.obj : error LNK2005: "public: class point __thiscall circle::show_cp(void)" (?show_cp@circle@@QAE?AVpoint@@XZ) 已经在 circle.obj 中定义
+cp.obj : error LNK2005: "public: int __thiscall circle::show_r(void)" (?show_r@circle@@QAEHXZ) 已经在 circle.obj 中定义
+point.obj : error LNK2005: "public: void __thiscall point::set_x(int)" (?set_x@point@@QAEXH@Z) 已经在 cp.obj 中定义
+point.obj : error LNK2005: "public: void __thiscall point::set_y(int)" (?set_y@point@@QAEXH@Z) 已经在 cp.obj 中定义
+point.obj : error LNK2005: "public: int __thiscall point::show_x(void)" (?show_x@point@@QAEHXZ) 已经在 cp.obj 中定义
+point.obj : error LNK2005: "public: int __thiscall point::show_y(void)" (?show_y@point@@QAEHXZ) 已经在 cp.obj 中定义
+test-11-1.obj : error LNK2005: _main 已经在 cps.obj 中定义
+D:\c++\test-11-1\Debug\test-11-1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
